@@ -1,0 +1,34 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <title>Speech</title>
+</head>
+<body>
+
+  <div id="viz">
+    <canvas id="analyser" width="1024" height="500"></canvas>
+    <canvas id="wavedisplay" width="1024" height="500"></canvas>
+  </div>
+  <div id="controls">
+    <img id="record" src="img/mic128.png" onclick="toggleRecording(this);">
+    <a id="save" href="#"><img src="img/save.svg"></a>
+  </div>
+
+
+  <ul>
+    <li class="done">make a list</li>
+    <li class="    ">make an amplitude graph / viz</li>
+    <li class="    ">crop it to relevance</li>
+    <li class="    ">record a voice snippet</li>
+    <li class="    ">save it to localStorage</li>
+    <li class="    ">make a phoneme meaningful list based off a paragraph</li>
+    <li class="    ">make phoneme aliases list</li>
+    <li class="    ">...</li>
+    <li class="    ">stitch sound pieces in a more coherent fashion</li>
+    <li class="    "></li>
+  </ul>
+  <script src="js/recorderjs/recorder.js"></script>
+  <script type="text/javascript" src="./js/helper.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>
